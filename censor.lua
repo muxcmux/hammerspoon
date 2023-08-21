@@ -2,7 +2,7 @@ local bleep = hs.sound.getByFile("/Users/muxcmux/.hammerspoon/bleep.mp3")
 
 bleep:volume(0.1)
 
-local mic = hs.audiodevice.findDeviceByUID("AppleUSBAudioEngine:CMEDIA:Q9-1:2222000:1")
+local mic = hs.audiodevice.findDeviceByName("Q9-1")
 
 bleep:device("BlackHole2ch_UID")
 
